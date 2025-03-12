@@ -2,10 +2,16 @@ name: discord_bot
 channels:
   - defaults
 dependencies:
-  - python>=3.13
+  - python>=3.11
   - pip
   - pip:
     - audioop-lts>=0.2.1
     - discord-py>=2.4.0
     - mistralai>=1.4.0
     - python-dotenv>=1.0.1
+    - yelpapi>=2.2.0
+    - beautifulsoup4>=4.12.0
+    - requests>=2.31.0
+    - aiohttp>=3.9.0
+    - lxml>=4.9.0
+    - scrapingbee>=1.0.0
